@@ -45,11 +45,9 @@ render(){
       <div id="main">
 
 <header class="major container medium">
-  <h2>A big part of filmmaking is gathering 
-
+  <h2> "Casting is 65% of directing"
   <br />
-  a group of people you can work with.  <br />
-  - Lenny Abrahamson</h2>
+  - John Frankenheimer</h2>
   <p>You inspire us.<br />
   and we would be honored if you'd be a part of our senior film..</p>
 </header>
@@ -66,7 +64,7 @@ render(){
     <a href="#" class="image icon fa-map"><img src="https://gigglingcamels.com/wp-content/uploads/2015/12/world-map.jpg" alt="" /></a>
     <div class="content">
       <h3>Location</h3>
-      <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+      <p>Wherever the story takes us.. well beirut mainly</p>
     </div>
   </section>
   <section class="feature left">
@@ -79,8 +77,8 @@ render(){
   <section class="feature right">
     <a href="#" class="image icon fa-map-marker"><img src="https://png2.kisspng.com/sh/880040e0060f5c489a790e7b636b2a66/L0KzQYm3VcE2N6Z8fZH0aYP2gLBuTfRzaahuhtk2ZnnvfX73iP91d5h3eeJxeT24cbfohfQ4bWk6faZqMT66SIe5WME6PmI6Sqg8OUS1Q4m8VMg1NqFzf3==/kisspng-drawing-film-photography-5afaed7e85e4a1.7862819615263942385484.png" alt="" /></a>
     <div class="content">
-      <h3>An LAU Production</h3>
-      <p>The greatest LAU cast ever, directed by Youssed Dghaidy.</p>
+      <h3> LAU Productions</h3>
+      <p>A senior film written & directed by <h5>Youssef Dghaidy</h5>.</p>
     </div>
   </section>
 </div>
