@@ -16,6 +16,7 @@
     "@types/styled-components": "^4.1.6",
     "antd": "^3.13.1",
     "create-react-class": "^15.6.3",
+    "indexof": "0.0.1",
     "meteor-node-stubs": "^0.4.1",
     "neal-react": "^0.2.5",
     "react": "^16.5.0",
