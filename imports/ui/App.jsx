@@ -3,7 +3,6 @@ import {
   Hero, CallToAction, ScrollDownIndicator
 } from 'react-landing-page'
 import { Provider, Heading, Subhead } from 'rebass'
-import {message} from 'antd';
 import React, { Component } from 'react'
 import { Meteor } from 'meteor/meteor';
 
@@ -18,7 +17,6 @@ import { Meteor } from 'meteor/meteor';
 
 console.log(this.state.answer)
 Meteor.call('sendEmail', this.state.answer);
-return message.success("YAAAY! We have recieved your answer! nervously waiting....")
 
 }
   else alert("You still havent answered...");
