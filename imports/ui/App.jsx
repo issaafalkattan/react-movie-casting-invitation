@@ -32,8 +32,8 @@ render(){
       playStatus={Sound.status.PLAYING}
       playFromPosition={300 /* in milliseconds */}
       onFinishedPlaying={this.handleSongFinishedPlaying}
-      autoplay={true}
       autoload={true}
+      autoplay={true}
     />
 <div id="header">
 				<span class="logo icon fa-film"></span>
@@ -56,7 +56,7 @@ render(){
   <section class="feature left">
     <a href="#" class="image icon fa-calendar"><img src="https://data.whicdn.com/images/194016012/original.gif" alt="" /></a>
     <div class="content">
-      <h3>Date</h3>
+      <h3>Date : 9 & 10 March</h3>
       <p>But of course, changes are possible based on your availability. We'll make this work.</p>
     </div>
   </section>
