@@ -88,7 +88,7 @@ render(){
 
 <footer class="major container medium">
 					<h3>So, you in ?</h3>
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
+					<p>Of course you will have to like the script before making the final decision, but for now, what do you say?</p>
 					<ul class="actions special">
 						<li><a href="#" class="button">Join our crew</a></li>
 					</ul>
