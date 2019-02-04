@@ -3,7 +3,7 @@ import {
   Hero, CallToAction, ScrollDownIndicator
 } from 'react-landing-page'
 import { Provider, Heading, Subhead } from 'rebass'
-
+import {message} from 'antd';
 import React, { Component } from 'react'
 import { Meteor } from 'meteor/meteor';
 
@@ -13,13 +13,14 @@ import { Meteor } from 'meteor/meteor';
     answer : ''
   }
 
-  sendValue = (e) => {
-e.preventDefault();
+  sendValue = () => {
   if(this.state.answer){
 
 console.log(this.state.answer)
 Meteor.call('sendEmail', this.state.answer);
-  }
+return message.success("YAAAY! We have recieved your answer! nervously waiting....")
+
+}
   else alert("You still havent answered...");
   }
 render(){
@@ -139,7 +140,7 @@ render(){
 </section>
 <div class="col-12">
 								<ul class="actions special">
-									<li><input onClick={() => this.sendValue(e)} type="submit" value="Decide." /></li>
+									<li><input onClick={() => this.sendValue()} type="submit" value="Decide." /></li>
 								</ul>
 							</div> 
           </div>

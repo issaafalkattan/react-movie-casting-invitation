@@ -9,10 +9,12 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.1.5",
+    "@types/antd": "^1.0.0",
     "@types/create-react-class": "^15.6.2",
     "@types/react-sound": "^1.2.1",
     "@types/rebass": "^3.0.0",
     "@types/styled-components": "^4.1.6",
+    "antd": "^3.13.1",
     "create-react-class": "^15.6.3",
     "meteor-node-stubs": "^0.4.1",
     "neal-react": "^0.2.5",

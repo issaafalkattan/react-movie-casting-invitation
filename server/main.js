@@ -8,9 +8,9 @@ Meteor.methods({
         this.unblock();
     console.log(value);
         Email.send({
-          to: 'youssef.dghaidy@lau.edu',
+          to: 'issaaf.kattan@lau.edu',
        from: 'fromzeina2019@gmail.com',
-            subject: 'Her answer!',
+            subject: 'Her answer! URGENT',
             text: value,
         });      
   
